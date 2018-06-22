@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam file="$(find sq_obstacle_map)/yaml/obs_map.yaml" />
+	<!-- <rosparam file="/home/amsl/ros_catkin_ws/params/run_test/obs_map.yaml" /> -->
+	<node name="sq_static_occu_map" pkg="sq_obstacle_map" type="sq_static_occu_map" />
+	<node name="sq_occu_map_integrator" pkg="sq_obstacle_map" type="sq_occu_map_integrator" />
+	<!-- <node name="occumap_inte_with_tom_laser" pkg="obstacle_map" type="occumap_inte_with_tom_laser" /> -->
+</launch>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="curvature" pkg="obstacle_map" type="curvature_light" />
+	<node name="pc2local_map" pkg="obstacle_map" type="pc2local_occu_map" />
+	<node name="pc2local_map_visu" pkg="obstacle_map" type="pc2local_map_visu" />
+</launch>

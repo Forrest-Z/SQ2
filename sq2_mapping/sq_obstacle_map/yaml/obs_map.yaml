@@ -1,0 +1,4 @@
+##map2d: {obs4path:  /home/amsl/pcd/infant/d_kan_velo90test.pcd }
+# map2d: {obs4path:   /home/amsl/pcd/infant/obs_cloud_data_final_d_kan_velo90test_after_crcl.pcd}
+map2d: {obs4path:   /home/amsl/ros_catkin_ws/src/kari_master/kari_localization/sample_pcd/d_kan_indoor.pcd}
+##map2d: {obs4path:   /home/amsl/pcd/sq/d_kan_sq1_indoor_rm_grnd.pcd}

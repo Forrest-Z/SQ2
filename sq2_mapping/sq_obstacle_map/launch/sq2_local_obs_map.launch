@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="sq_curvature" pkg="sq_obstacle_map" type="sq_curvature_light" />
+	<node name="sq_pc2local_map" pkg="sq_obstacle_map" type="sq_pc2local_occu_map" />
+	<node name="sq_pc2local_map_visu" pkg="sq_obstacle_map" type="sq_pc2local_map_visu" />
+	<node name="sq_height_map" pkg="sq_height_map" type="sq_heightmap_node" />
+</launch>
