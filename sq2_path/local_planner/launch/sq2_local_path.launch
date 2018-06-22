@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+		<node name="sq_map_tf" pkg="local_planner" type="sq_map_tf" />
+        <node name="sq_speed_control" pkg="local_planner" type="sq_speed_control" />
+        <node name="sq_local_goal_creator" pkg="local_planner" type="sq_local_goal_creator" />
+        <node name="sq_trajectory_manager" pkg="local_planner" type="sq_trajectory_manager"/>
+        <node name="sq_generate_server" pkg="local_planner" type="sq_generate_server" />
+		<!-- <node name="visu_path" pkg="local_planner" type="visu_path" /> -->
+		<!-- <node name="visu_select_path" pkg="local_planner" type="visu_select_path" /> -->
+		<node name="sq_motion_decision" pkg="local_planner" type="sq_motion_decision" />
+
+        <!-- <node name="visu_lmap_gc" pkg="human_following" type="visu_lmap_gc" /> -->
+        <!-- <node name="rwrc15_measure_f_dist" pkg="rwrc15_human_following" type="rwrc15_measure_f_dist" /> -->
+</launch>
