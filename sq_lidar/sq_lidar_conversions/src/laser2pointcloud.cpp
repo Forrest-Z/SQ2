@@ -58,7 +58,7 @@ void Laser2PointCloud::sq_lidar_callback(const sensor_msgs::LaserScan::ConstPtr&
 		string frame_name = output1.header.frame_id;
 		projector_.transformLaserScanToPointCloud(TARGET_FRAME_, output1, pc2, listener_);
 		
-		pc2.header.frame_id = "/centerlaser3_";
+		pc2.header.frame_id = "/centerlaser2_";
 		// pc2.header.frame_id = "/centerlaser_";
 		pub_pointcloud_.publish(pc2);
 	}
