@@ -1,0 +1,10 @@
+sq_lidar_conversions:
+    laser_topic: /sq_lidar/scan
+    pointcloud_topic: /sq_lidar/points
+    target_frame: centerlaser_
+    output_topic: /sq_lidar/points/lcl
+    odom_topic: /odom
+    odom_parent_frame: odom
+    odom_child_frame: base_link
+
+

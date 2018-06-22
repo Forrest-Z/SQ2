@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam command="load" file="$(find sq_lidar_conversions)/conf/sq_lidar_conversions.yaml"/>
+	<node pkg="sq_lidar_conversions" type="laser2pointcloud" name="laser2pointcloud"/>
+	<node pkg="sq_lidar_conversions" type="save_pointcloud_odom_filtered" name="save_pointcloud_odom_filtered" output="screen" />
+
+	<node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 /matching_base_link3 /centerlaser3_ 100" />
+
+
+</launch>
+	

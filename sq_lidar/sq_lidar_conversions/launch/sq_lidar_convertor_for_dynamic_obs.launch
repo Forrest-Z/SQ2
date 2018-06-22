@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam command="load" file="$(find sq_lidar_conversions)/conf/sq_lidar_conversions.yaml"/>
+	<node pkg="sq_lidar_conversions" type="laser2pointcloud_for_dynamic_obs" name="laser2pointcloud_for_dynamic_obs"/>
+	<node pkg="sq_lidar_conversions" type="save_pointcloud_odom_for_dynamic_obs" name="save_pointcloud_odom_for_dynamic_obs" output="screen" />
+</launch>
+	
