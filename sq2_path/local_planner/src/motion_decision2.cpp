@@ -21,7 +21,7 @@
 using namespace std;
 
 const string header_frame("/map");
-const string robot_frame("/centerlaser3_");
+const string robot_frame("/centerlaser2_");
 const float Vmax=0.9;                              //vmaxの設定
 const float ANGULARmax=1.0; 
 const float ANGULARmin=0.1;

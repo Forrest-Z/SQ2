@@ -26,7 +26,7 @@
 using namespace std;
 
 const string header_frame("/map");
-const string robot_frame("/centerlaser3_");
+const string robot_frame("/centerlaser2_");
 
 //callback mutex
 boost::mutex l_goal_mutex_;

@@ -29,7 +29,7 @@ const float Lmax = 5.0;
 const float MaxAngle = 1.2;
 
 const string header_frame("/map");
-const string header_frame2("/centerlaser3_");
+const string header_frame2("/centerlaser2_");
 using namespace std;
 
 //-----------Pathの構造体-----------//

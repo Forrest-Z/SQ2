@@ -18,7 +18,7 @@
 
 using namespace std;
 const string header_frame="/map";
-const string sensor_frame="/centerlaser3_";
+const string sensor_frame="/centerlaser2_";
 //const string sensor_frame="/obstacle_local_map";
 // const string sensor_frame="/velodyne2";
 

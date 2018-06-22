@@ -16,7 +16,7 @@
 using namespace std;
 
 const string header_frame("/map");
-const string robot_frame("/centerlaser3_");
+const string robot_frame("/centerlaser2_");
 
 float n_dist=0, radius=0;;
 bool avoid_flag=true;
