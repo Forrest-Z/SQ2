@@ -520,7 +520,7 @@ void map2matching_base_link(float x, float y, float theta, tf::TransformBroadcas
 	tf::Quaternion q;
 	q.setRPY(0, 0, theta);
 	transform.setRotation(q);
-	br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "/global_obstacle_map", "/matching_base_link"));
+	br.sendTransform(tf::StampedTransform(transform, ros::Time::now(), "/global_obstacle_map", "/matching_base_link2"));
 	// cout<<"tf pub!!!"<<endl;	
 	// cout<<"x : "<<x<<endl;
 	// cout<<"y : "<<y<<endl;

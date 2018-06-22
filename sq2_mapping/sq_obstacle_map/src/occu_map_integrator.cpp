@@ -209,7 +209,7 @@ int main(int argc, char** argv){
 
 	nav_msgs::OccupancyGrid local_map;
 	// local_map.header.frame_id = "/obstacle_local_map";
-	local_map.header.frame_id = "/centerlaser_";
+	local_map.header.frame_id = "/centerlaser2_";
 	
 	local_map.data.resize(int(local_W / R) * int(local_H / R));
 	local_map.info.width = int(local_W / R);
