@@ -4,7 +4,7 @@
 #include <sq_trajectory_generation/VelocityArray.h>
 #include <cstdlib>
 #include <tf/transform_listener.h>
-#include <local_planner/Velocity.h>
+#include <sq_local_planner/Velocity.h>
 #include <geometry_msgs/PoseStamped.h>
 #include <geometry_msgs/Twist.h>
 #include <sensor_msgs/Joy.h>
@@ -66,7 +66,7 @@ void setStopCommand(geometry_msgs::Twist& cmd_vel)
 	cmd_vel.angular.z = 0;
 }
 
-void setTurnCommand(local_planner::Velocity& cmd_vel,
+void setTurnCommand(sq_local_planner::Velocity& cmd_vel,
 		geometry_msgs::PoseStamped& wp,
 		geometry_msgs::PoseStamped& robo)
 {

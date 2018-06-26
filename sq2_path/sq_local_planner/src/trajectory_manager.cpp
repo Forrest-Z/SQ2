@@ -17,7 +17,7 @@
 #include <std_msgs/Int32.h>
 #include <std_msgs/Float32.h>
 #include <visualization_msgs/Marker.h>
-#include <local_planner/Velocity.h>
+#include <sq_local_planner/Velocity.h>
 //---------------From library---------------//
 #include "sq_trajectory_generation/Visualize_lib.h"
 

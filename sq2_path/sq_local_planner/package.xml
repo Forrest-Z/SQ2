@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>local_planner</name>
+  <name>sq_local_planner</name>
   <version>0.0.0</version>
-  <description>The local_planner package</description>
+  <description>The sq_local_planner package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->

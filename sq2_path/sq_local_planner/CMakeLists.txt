@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(local_planner)
+project(sq_local_planner)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -153,7 +153,7 @@ SET(CMAKE_CXX_FLAGS "-std=c++11 -O2 -g -Wall ${CMAKE_CXX_FLAGS}")
 
 ## Declare a C++ executable
 # add_executable(local_planner_node src/local_planner_node.cpp)
-add_executable(motion_decision src/motion_decision.cpp)
+add_executable(sq_motion_decision src/motion_decision.cpp)
 add_executable(sq_generate_server src/generate_server.cpp)
 add_executable(sq_speed_control src/speed_control.cpp)
 add_executable(sq_trajectory_manager src/trajectory_manager.cpp)
@@ -168,7 +168,7 @@ add_executable(sq_local_goal_creator src/local_goal_creator.cpp)
 # target_link_libraries(local_planner_node
 #   ${catkin_LIBRARIES}
 # )
-target_link_libraries(motion_decision ${catkin_LIBRARIES})
+target_link_libraries(sq_motion_decision ${catkin_LIBRARIES})
 target_link_libraries(sq_generate_server sq_Visualize_lib sq_trajectory_generation sq_boundary_state sq_LocalPlanning_lib ${catkin_LIBRARIES})
 target_link_libraries(sq_speed_control ${catkin_LIBRARIES})
 target_link_libraries(sq_trajectory_manager sq_Visualize_lib ${catkin_LIBRARIES})

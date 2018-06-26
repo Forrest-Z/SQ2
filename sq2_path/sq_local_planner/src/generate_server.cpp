@@ -476,7 +476,7 @@ bool server(sq_trajectory_generation::TrajectoryGeneration::Request  &req,      
 
 int main(int argc, char **argv)
 {
-	const string package_path_str("/home/amsl/sq_catkin_ws/src/path/local_planner");
+	const string package_path_str("/home/amsl/sq_catkin_ws/src/sq2_path/sq_local_planner");
 	// const string package_path_str("/home/amsl/AMSL_ros_pkg/rwrc16/rwrc16_human_following");
 	trajectory.fileInput(package_path_str+"/look_up_table/infant/v-03.bin",-0.3);
 	trajectory.fileInput(package_path_str+"/look_up_table/infant/v-02.bin",-0.2);
