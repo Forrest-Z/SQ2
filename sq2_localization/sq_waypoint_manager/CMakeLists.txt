@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(waypoint_manager)
+project(sq_waypoint_manager)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -133,11 +133,11 @@ include_directories(
 
 ## Declare a C++ executable
 # add_executable(waypoint_manager_node src/waypoint_manager_node.cpp)
-add_library(visualize src/Visualize_lib.cpp)
-add_library(init_visu src/init_visu.cpp)
-add_library(GPStoXY src/GPStoXY.cpp)
-add_library(read_wp_file src/read_wp_file.cpp)
-add_executable(waypoint_manager src/waypoint_manager.cpp)
+add_library(sq_visualize src/Visualize_lib.cpp)
+add_library(sq_init_visu src/init_visu.cpp)
+add_library(sq_GPStoXY src/GPStoXY.cpp)
+add_library(sq_read_wp_file src/read_wp_file.cpp)
+add_executable(sq_waypoint_manager src/waypoint_manager.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -147,8 +147,8 @@ add_executable(waypoint_manager src/waypoint_manager.cpp)
 # target_link_libraries(waypoint_manager_node
 #   ${catkin_LIBRARIES}
 # )
-target_link_libraries(read_wp_file GPStoXY ${catkin_LIBRARIES})
-target_link_libraries(waypoint_manager visualize init_visu read_wp_file ${catkin_LIBRARIES})
+target_link_libraries(sq_read_wp_file sq_GPStoXY ${catkin_LIBRARIES})
+target_link_libraries(sq_waypoint_manager sq_visualize sq_init_visu sq_read_wp_file ${catkin_LIBRARIES})
 
 #############
 ## Install ##

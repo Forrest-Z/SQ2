@@ -1,4 +1,4 @@
-#include "waypoint_manager/Visualize_lib.h"
+#include "sq_waypoint_manager/Visualize_lib.h"
 #include <iostream>
 
 using namespace std;

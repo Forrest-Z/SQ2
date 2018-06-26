@@ -1,4 +1,4 @@
-#include "waypoint_manager/init_visu.h"
+#include "sq_waypoint_manager/init_visu.h"
 #include <string>
 
 //wp_mngr.cpp, init_visu.cpp, read_wp_file.cppのheader_frameを使用するグローバル座標系の名前に変更すること//

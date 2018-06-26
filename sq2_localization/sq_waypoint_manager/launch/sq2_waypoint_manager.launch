@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- <rosparam file="$(find params)/run_test/waypoint_list.yaml"/> -->
+	<rosparam file="$(find sq_waypoint_manager)/yaml/sq_waypoint_list.yaml"/>
+	<node name="sq_waypoint_manager" pkg="sq_waypoint_manager" type="sq_waypoint_manager" output="screen"/>
+</launch>

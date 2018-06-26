@@ -28,10 +28,10 @@
 #include <boost/thread.hpp>
 #include <stdio.h>
 #include <stdlib.h>
-#include "waypoint_manager/Visualize_lib.h"
+#include "sq_waypoint_manager/Visualize_lib.h"
 // #include "waypoint_manager/GPStoXY.h"
-#include "waypoint_manager/init_visu.h"
-#include "waypoint_manager/read_wp_file.h"
+#include "sq_waypoint_manager/init_visu.h"
+#include "sq_waypoint_manager/read_wp_file.h"
 #include <std_msgs/String.h>
 
 #define ON 1

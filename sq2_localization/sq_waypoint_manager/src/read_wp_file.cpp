@@ -2,9 +2,9 @@
 #include <geometry_msgs/PoseStamped.h>
 #include <nav_msgs/Path.h>
 #include <fstream>
-#include "waypoint_manager/GPStoXY.h"
-#include "waypoint_manager/read_wp_file.h"
-#include "waypoint_manager/Visualize_lib.h"
+#include "sq_waypoint_manager/GPStoXY.h"
+#include "sq_waypoint_manager/read_wp_file.h"
+#include "sq_waypoint_manager/Visualize_lib.h"
 using namespace std;
 
 //wp_mngr.cpp, init_visu.cpp, read_wp_file.cppのheader_frameを使用するグローバル座標系の名前に変更すること//
@@ -95,7 +95,7 @@ void inputFromTxt(nav_msgs::Path& waypoints, const string& file_name)
 	}
 }
 
-void convertWaypoints(waypoint_manager::InitialValue init_state, 
+void convertWaypoints(sq_waypoint_manager::InitialValue init_state, 
 						nav_msgs::Path waypoint, 
 						nav_msgs::Path& converts)
 {

@@ -1,5 +1,5 @@
 {
-    wp_dir_path : /home/amsl/ros_catkin_ws/src/localization/waypoint_manager/wp_list_xy/run_test/,
+    wp_dir_path : /home/amsl/sq_catkin_ws/src/sq2_localization/sq_waypoint_manager/wp_list_xy/run_test/,
     # wp_dir_path : /home/amsl/ros_catkin_ws/src/localization/waypoint_manager/wp_list_xy/tsukuba/,
     # wp_txt : sq2_d_kan_indoor.txt
     wp_txt : d_kan_indoor.txt

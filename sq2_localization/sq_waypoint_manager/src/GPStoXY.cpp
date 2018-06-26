@@ -2,7 +2,7 @@
 //
 //
 
-#include "waypoint_manager/GPStoXY.h"
+#include "sq_waypoint_manager/GPStoXY.h"
 
 #include <iostream>
 #include <stdio.h>
